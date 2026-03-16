@@ -1,0 +1,11 @@
+{
+  "editor.codeActionsOnSave": {
+    "source.fixAll": "explicit",
+    "source.organizeImports": "explicit",
+    "source.sortMembers": "explicit"
+  },
+  "eslint.workingDirectories": [
+    { "directory": "examples/expo", "changeProcessCWD": true },
+    "."
+  ]
+}
