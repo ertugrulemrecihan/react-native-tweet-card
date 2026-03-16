@@ -1,6 +1,6 @@
 # react-native-tweet
 
-Monorepo for the **react-native-tweet** library and example app. Tweet embed for React Native / Expo using the same Twitter Syndication API as [vercel/react-tweet](https://github.com/vercel/react-tweet) (MIT).
+Monorepo for the **react-native-tweet-card** library and example app. Tweet embed for React Native / Expo using the same Twitter Syndication API as [vercel/react-tweet](https://github.com/vercel/react-tweet) (MIT).
 
 ## Structure
 
@@ -35,7 +35,7 @@ cd apps/expo-app && pnpm start
 ## Using the library
 
 From another app in the monorepo, depend on `react-native-tweet` with `workspace:*`.  
-From npm: `npm install react-native-tweet`. See [packages/react-native-tweet/README.md](packages/react-native-tweet/README.md) for API and usage.
+From npm: `npm install react-native-tweet-card`. See [packages/react-native-tweet/README.md](packages/react-native-tweet/README.md) for API and usage.
 
 ## Tooling
 

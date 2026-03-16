@@ -21,7 +21,7 @@ config.resolver = {
     'react-native': appReactNative,
   },
   resolveRequest: (context, moduleName, platform) => {
-    if (moduleName === 'react-native-tweet') {
+    if (moduleName === 'react-native-tweet-card') {
       return { filePath: packageSource, type: 'sourceFile' };
     }
     if (moduleName === 'react') {

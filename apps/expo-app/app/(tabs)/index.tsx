@@ -3,7 +3,7 @@ import { openBrowserAsync } from 'expo-web-browser';
 import { Pressable, ScrollView, StyleSheet, View } from 'react-native';
 
 import { ThemedText } from '@/components/themed-text';
-import { Tweet, getTweetId } from 'react-native-tweet';
+import { Tweet, getTweetId } from 'react-native-tweet-card';
 
 const AVENY_LOGO =
   'https://framerusercontent.com/images/8YimitmLM1WvPR1VXYzHIhHEF4.png?width=515&height=480';
@@ -45,7 +45,7 @@ export default function Screen() {
 
       <View style={styles.section}>
         <ThemedText type="subtitle" style={styles.sectionTitle}>
-          react-native-tweet
+          react-native-tweet-card
         </ThemedText>
         <ThemedText style={styles.sectionDesc}>
           Tweet embed — aynı API (vercel/react-tweet), React Native arayüzü.
