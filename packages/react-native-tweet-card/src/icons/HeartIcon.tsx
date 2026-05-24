@@ -1,0 +1,22 @@
+import Svg, { Path, Rect } from 'react-native-svg';
+import type { IconProps } from './icon-props';
+
+export function HeartIcon({
+  size = 16,
+  color = 'currentColor',
+  strokeWidth = 16,
+}: IconProps) {
+  return (
+    <Svg width={size} height={size} viewBox="0 0 256 256" fill="none">
+      <Rect width="256" height="256" fill="none" />
+      <Path
+        d="M128,224S24,168,24,102A54,54,0,0,1,78,48c22.59,0,41.94,12.31,50,32,8.06-19.69,27.41-32,50-32a54,54,0,0,1,54,54C232,168,128,224,128,224Z"
+        fill="none"
+        stroke={color}
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth={strokeWidth}
+      />
+    </Svg>
+  );
+}
